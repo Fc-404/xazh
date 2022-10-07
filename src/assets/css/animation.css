@@ -1,0 +1,15 @@
+/*  */
+.showSelfIcon-enter-active,
+.showSelfIcon-leave-active {
+  transition: all .2s ease-in-out;
+}
+
+.showSelfIcon-enter-from {
+  transform: translateY(-50px) translateX(50px) scale(.5);
+  opacity: 0;
+}
+
+.showSelfIcon-leave-to {
+  transform: translateY(-50px) translateX(50px) scale(.5);
+  opacity: 0;
+}
