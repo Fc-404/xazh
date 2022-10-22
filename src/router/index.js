@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
@@ -28,7 +28,7 @@ const routes = [
         component: () => import('../views/HomePage/Project.vue')
       },
       {
-        path: 'tools',
+        path: '/tools',
         name: 'Tools',
         component: () => import('../views/HomePage/Tools.vue')
       },
@@ -50,14 +50,14 @@ const routes = [
     ]
   },
   {
-    path: '/404',
+    path: '/:pathMatch(.+)*',
     name: '404',
     component: () => import('../views/Error/404.vue')
-  }
+  },
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory('/'),
   routes
 })
 

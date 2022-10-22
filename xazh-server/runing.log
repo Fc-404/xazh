@@ -1,0 +1,18 @@
+[9.5 19:34:51](3) 数据库操作失败
+TypeError: users.findOne(...).project is not a function
+[9.5 19:35:30](3) 数据库操作失败
+TypeError: users.findOne(...).project is not a function
+[9.5 19:35:55](3) 数据库操作失败
+TypeError: users.findOne(...).project is not a function
+[9.5 19:49:25](3) 数据库操作失败
+MongoInvalidArgumentError: Update document requires atomic operators
+[9.5 19:49:35](3) 数据库操作失败
+MongoInvalidArgumentError: Update document requires atomic operators
+[9.5 19:49:37](3) 数据库操作失败
+MongoInvalidArgumentError: Update document requires atomic operators
+[9.5 19:50:00](3) 数据库操作失败
+MongoInvalidArgumentError: Update document requires atomic operators
+[9.5 19:50:26](3) 数据库操作失败
+MongoInvalidArgumentError: Update document requires atomic operators
+[9.5 19:50:57](3) 数据库操作失败
+MongoInvalidArgumentError: Update document requires atomic operators
